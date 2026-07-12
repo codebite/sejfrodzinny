@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sejf Rodzinny — bezpieczny sejf na dane rodziny</title>
+  <meta name="description" content="Sejf Rodzinny — szyfrowany AES-256-GCM schowek na dane rodziny. Wszystko zostaje na Twoim telefonie. Bez kont, bez chmury, bez reklam.">
+  <link rel="alternate" hreflang="en" href="en/">
+  <link rel="alternate" hreflang="pl" href="./">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<div class="wrap">
+
+  <nav class="lang">
+    <a href="./" aria-current="true">Polski</a>
+    <a href="en/">English</a>
+  </nav>
+
+  <header>
+    <img class="logo" src="assets/icon.png" alt="Ikona aplikacji Sejf Rodzinny">
+    <h1>Sejf Rodzinny</h1>
+    <p class="tagline">Bezpieczny sejf na dane Twojej rodziny. Wszystko zostaje na Twoim telefonie.</p>
+    <div class="badges">
+      <span class="badge">🔒 AES-256-GCM</span>
+      <span class="badge">📵 Działa offline</span>
+      <span class="badge">🚫 Zero reklam i śledzenia</span>
+      <span class="badge">☁️ Bez chmury</span>
+    </div>
+  </header>
+
+  <section>
+    <h2>Po co to jest</h2>
+    <p>
+      PESEL dziecka, numer dowodu, seria paszportu, numer polisy — dane, których potrzebujesz
+      raz na kwartał i nigdy nie pamiętasz, gdzie je zapisałeś. Kartka w szufladzie gubi się,
+      notatka w telefonie leży otwartym tekstem, a chmura oznacza oddanie danych rodziny
+      obcej firmie.
+    </p>
+    <p>
+      <strong>Sejf Rodzinny</strong> trzyma je w jednym miejscu, zaszyfrowane tym samym standardem,
+      którym chronione są dane bankowe — i nigdzie ich nie wysyła.
+    </p>
+  </section>
+
+  <section>
+    <h2>Bezpieczeństwo</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Szyfrowanie AES-256-GCM</h3>
+        <p>Szyfrowanie uwierzytelnione — wykrywa każdą próbę manipulacji plikiem sejfu.</p>
+      </div>
+      <div class="feature">
+        <h3>Klucz z Twojego hasła</h3>
+        <p>PBKDF2, ponad 100 000 iteracji, unikalna sól dla każdego sejfu.</p>
+      </div>
+      <div class="feature">
+        <h3>Zero-knowledge</h3>
+        <p>Odszyfrowane dane żyją tylko w pamięci RAM i znikają, gdy zablokujesz aplikację.</p>
+      </div>
+      <div class="feature">
+        <h3>Nic nie wychodzi na zewnątrz</h3>
+        <p>Brak kont, serwerów, analityki i reklam. Aplikacja nie potrzebuje internetu.</p>
+      </div>
+      <div class="feature">
+        <h3>Maskowanie danych</h3>
+        <p>Wrażliwe pola są domyślnie zasłonięte — odsłaniasz je jednym dotknięciem.</p>
+      </div>
+      <div class="feature">
+        <h3>Kopia zapasowa</h3>
+        <p>Eksport i import zaszyfrowanego pliku <code>.sejf</code> — łatwe przeniesienie na nowy telefon.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Jak to wygląda</h2>
+    <div class="shots">
+      <figure>
+        <img src="screenshots/pl/01-welcome-screen-new-vault-creation.png"
+             alt="Ekran tworzenia nowego sejfu — nazwa, hasło główne ze wskaźnikiem siły, przycisk „Utwórz i zaszyfruj”">
+        <figcaption>Zakładasz sejf i ustawiasz hasło główne</figcaption>
+      </figure>
+      <figure>
+        <img src="screenshots/pl/02-members-list-dashboard.png"
+             alt="Lista członków rodziny zapisanych w sejfie">
+        <figcaption>Cała rodzina w jednym miejscu</figcaption>
+      </figure>
+      <figure>
+        <img src="screenshots/pl/03-member-details-screen.png"
+             alt="Szczegóły osoby — PESEL i numer konta zamaskowane kropkami, odsłaniane ikoną oka">
+        <figcaption>Poufne pola odsłaniasz jednym dotknięciem</figcaption>
+      </figure>
+      <figure>
+        <img src="screenshots/pl/04-setting-and-privacy-settings-screen.png"
+             alt="Ustawienia poufności pól — przełączniki decydujące, które dane są maskowane">
+        <figcaption>Ty decydujesz, co jest poufne</figcaption>
+      </figure>
+      <figure>
+        <img src="screenshots/pl/05-welcome-unlock-screen.png"
+             alt="Ekran odblokowania sejfu hasłem">
+        <figcaption>Bez hasła nikt nie wejdzie</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Pobierz</h2>
+    <p class="note">Aplikacja jest w przygotowaniu do publikacji w Google Play.</p>
+    <p class="note">Link pojawi się tutaj, gdy tylko przejdzie recenzję.</p>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <a href="privacy.html">Polityka prywatności</a> ·
+    <a href="mailto:radoslaw.roslan@gmail.com">Kontakt</a>
+    <p>© 2026 Radosław Rosłan · <code>com.roslan.sejfrodzinny</code></p>
+  </div>
+</footer>
+
+</body>
+</html>
