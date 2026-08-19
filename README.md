@@ -6,13 +6,15 @@ PESEL dziecka, numer dowodu, seria paszportu, numer polisy — dane, których po
 kwartał i nigdy nie pamiętasz, gdzie je zapisałeś. Sejf Rodzinny trzyma je w jednym miejscu,
 zaszyfrowane, i nigdzie ich nie wysyła.
 
+📲 **Pobierz z Google Play:** https://play.google.com/store/apps/details?id=com.roslan.sejfrodzinny
+
 🔗 **Strona aplikacji:** https://codebite.github.io/sejfrodzinny/ ·
 [English version](https://codebite.github.io/sejfrodzinny/en/)
 
 ## Bezpieczeństwo
 
 - **AES-256-GCM** — szyfrowanie uwierzytelnione, wykrywa manipulację plikiem sejfu
-- **PBKDF2**, 100 000+ iteracji, unikalna sól dla każdego sejfu
+- **PBKDF2** z SHA-512, 310 000 iteracji, unikalna sól dla każdego sejfu
 - **Zero-knowledge** — odszyfrowane dane istnieją tylko w RAM i są kasowane przy zablokowaniu aplikacji
 - **Brak sieci** — bez kont, serwerów, analityki i reklam; aplikacja działa w pełni offline
 - **Kopia zapasowa** — eksport/import zaszyfrowanego pliku `.sejf`
@@ -24,7 +26,8 @@ Pełna treść: [Polityka prywatności](https://codebite.github.io/sejfrodzinny/
 
 ## Status
 
-W przygotowaniu do publikacji w Google Play (`com.roslan.sejfrodzinny`).
+**Opublikowana w Google Play od 19 sierpnia 2026** — `com.roslan.sejfrodzinny`, wersja 1.0.1,
+dostępna w 177 krajach. Android, za darmo, bez reklam i płatności w aplikacji.
 
 ## Kontakt
 
